@@ -21,9 +21,9 @@ class String
     #array = []
     
     array = self.split(/\.|\?|\!/)
-    #self.count_sentences
+    array.count
     
-    binding.pry
+    #binding.pry
 
   end
 end
