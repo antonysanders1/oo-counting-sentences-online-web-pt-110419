@@ -18,9 +18,9 @@ class String
 
   def count_sentences
     
-    array = []
+    #array = []
     
-    array << self.split(/\.|\?|\!/)
+    array = self.split(/\.|\?|\!/)
     #self.count_sentences
     
     binding.pry
