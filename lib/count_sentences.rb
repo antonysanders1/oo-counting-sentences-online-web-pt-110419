@@ -20,7 +20,7 @@ class String
     
     #array = []
     
-    array = self.split(/\.|\?|\!/)
+    array = self.split(/\.|\?|\!!/)
     array.count
     
     #binding.pry
