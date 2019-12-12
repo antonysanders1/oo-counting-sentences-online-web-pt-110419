@@ -19,7 +19,13 @@ class String
   def count_sentences
     self.split(/\.|\?|\!/)
     #self.count_sentences
-    binding.pry
+    
+    
+    count = 0 
+    
+    self.each do |i|
+      binding.pry
+  end
 
   end
 end
