@@ -20,7 +20,7 @@ class String
     self.split(/\.|\?|\!/)
     #self.count_sentences
     
-    
+    binding.pry
 
   end
 end
